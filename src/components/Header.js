@@ -51,7 +51,6 @@ const Header = () => {
                     </div>
                     <div className='rs'>
                         <ul>
-
                             {nav.map((item) => (
                                 <Link to={item.link} className={`link ${pathname === item.link ? "active" : ""}`}>
                                     <span>{item.label}</span>
